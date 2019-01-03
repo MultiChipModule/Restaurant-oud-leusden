@@ -1,0 +1,69 @@
+html{
+    background:linear-gradient(0deg,rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)),url(./pictures/christmasbackground.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+#HeadDiv{
+    margin-top: 10px
+    box-shadow: 1px 1px gray;
+    height: 90%;
+    width: 64%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid white;
+    background-color: white;
+    
+}
+
+#GreenThing{
+    background: #448761;
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 40%;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    font-family: Helvetica;
+}
+
+
+#Pictures{
+    margin-left: 50%;
+    margin-top: -13%;
+}
+
+#Wifi{
+    margin-left: 10%;
+}
+
+#Logo{
+    margin-left: 10%;
+}
+
+#TextFieldHome{
+    border-style: none dotted none none;
+    width: 55%;
+    
+}
+
+#Slider{
+    margin-left: 60%;
+    margin-top: -30%;
+    margin-bottom: 30%;
+}
+
+#adresm, #contactm, #routem{
+   font-size: 10pt;
+}
+
+#openingstijdenm, #openm{
+    font-size: 13px;
+}
+
