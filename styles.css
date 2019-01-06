@@ -3,8 +3,8 @@ html{
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
     height: 100%;
+    background-attachment: fixed;
 }
 
 #HeadDiv{
@@ -67,3 +67,48 @@ body{
     font-size: 13px;
 }
 
+#routepdfm{
+    background-image: url('./pictures/page_white_acrobat.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 16px;
+    padding: 5px 10px;
+    line-height: 16px;
+    color: #fff;
+    padding-left: 30px;
+    border: 0;
+    border-radius: 3px;
+    background-color: #C09853;
+    background-repeat: no-repeat;
+    background-position: 6px 4px;
+    font-family: Calibri;
+    -webkit-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -ms-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+#routepdfm:hover{
+    background-image: url('./pictures/page_white_acrobat.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 16px;
+    padding: 5px 10px;
+    line-height: 16px;
+    color: #fff;
+    padding-left: 30px;
+    border: 0;
+    border-radius: 3px;
+    background-color: #4e856b;
+    background-repeat: no-repeat;
+    background-position: 6px 4px;
+    font-family: Calibri;
+    -webkit-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -ms-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+#mapm{
+    float: right;
+}
