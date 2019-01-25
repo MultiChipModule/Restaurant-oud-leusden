@@ -1,11 +1,16 @@
 #HeadDiv{
     box-shadow: 1px 1px gray;
     height: 90%;
-    width: 63%;
+    width: 62%;
     margin-left: auto;
     margin-right: auto;
     border: 1px solid rebeccapurple;
-    box-shadow: gray 3px 3px 3px;
+    box-shadow: rgb(211, 207, 207) 3px 3px 3px;
+    font-family: "Calibri", verdana, candara, Andale Mono , Helvetica, sans-serif;
+}
+
+#Header{
+    height: 125px;
 }
 
 #GreenThing{
@@ -21,7 +26,7 @@
 
 #Pictures{
     margin-left: 50%;
-    margin-top: -13%;
+    margin-top: -15%;
 }
 
 #Wifi{
@@ -35,6 +40,7 @@
 #TextFieldHome{
     border-style: none dotted none none;
     width: 55%;
+    margin-left: 5px;
     
 }
 
@@ -63,10 +69,10 @@ nav{
     margin-left: 3%;
 }
 
-#TreeTextThings{
+#TwoTextThings{
     display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 3px;
+    margin-top: 50px;
     
 }
 
@@ -74,7 +80,7 @@ nav{
     background-color: #F6F6F6;
     width: 30%;
     float:left;
-    margin-left: auto;
+    margin-left: 25px;
     margin-right: auto;
 }
 
@@ -83,16 +89,10 @@ nav{
     background-color: #F6F6F6;
     width: 30%;
     float: left;
-    margin-left: auto;
+    margin-left: 25px;
     margin-right: auto;
 }
-#Number3{
-    background-color: #F6F6F6;
-    width: 30%;
-    float: left;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 
 ul {
     list-style-type: none;
@@ -169,11 +169,6 @@ ul {
      background-repeat: no-repeat;
      background-position: 6px 4px;
      font-family: Calibri;
-     -webkit-transition: all .25s ease-in-out;
-     -moz-transition: all .25s ease-in-out;
-     -ms-transition: all .25s ease-in-out;
-     -o-transition: all .25s ease-in-out;
-     transition: all .25s ease-in-out;
  }
  #mapm{
      float: right;
@@ -188,61 +183,38 @@ ul {
     color: #fff;
     padding-left: 30px;
     border: 0;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -ms-border-radius: 3px;
-    -o-border-radius: 3px;
     border-radius: 3px;
-    -webkit-transition: all .25s ease-in-out;
-    -moz-transition: all .25s ease-in-out;
-    -ms-transition: all .25s ease-in-out;
-    -o-transition: all .25s ease-in-out;
-    transition: all .25s ease-in-out;
     background-color: #C09853;
     background-repeat: no-repeat;
     background-position: 6px 4px;
 }
-*{
-    margin: 0;
-    padding: 0;
-}
-.rate {
-    float: left;
-    height: 46px;
-    padding: 0 10px;
-}
-.rate:not(:checked) > input {
-    position:absolute;
-    top:-9999px;
-}
-.rate:not(:checked) > label {
-    float:right;
-    width:1em;
-    overflow:hidden;
-    white-space:nowrap;
-    cursor:pointer;
-    font-size:30px;
-    color:#ccc;
-}
-.rate:not(:checked) > label:before {
-    content: '★ ';
-}
-.rate > input:checked ~ label {
-    color: #ffc700;    
-}
-.rate:not(:checked) > label:hover,
-.rate:not(:checked) > label:hover ~ label {
-    color: #deb217;  
-}
-.rate > input:checked + label:hover,
-.rate > input:checked + label:hover ~ label,
-.rate > input:checked ~ label:hover,
-.rate > input:checked ~ label:hover ~ label,
-.rate > label:hover ~ input:checked ~ label {
-    color: #c59b08;
+#SubmitGreen{
+    
+    margin-left: 10%;
+    color: #fff;
+    background: #558971;
+    width: 80%;
+    height: 30px;
+    border: none;
+    
 }
 
-div{
+#Mail{
+    margin-left: 10%;
+    width: 78%;
+    height: 28px;
+}
+
+#Fall{
+    float: right;
+}
+#Tekstjes{
     margin-left: 5px;
     margin-right: 5px;
+}
+#PicturesSlide{
+    float: right;
+    width: 41%;
+    margin-right: 20px;
+    margin-top: -425px;
 }
