@@ -1,22 +1,26 @@
-let dots          = 4;
-let sliderElem    = document.querySelector('.slider')
-let dotElems      = sliderElem.querySelectorAll('.slider__dot')
-let indicatorElem = sliderElem.querySelector('.slider__indicator')
+var slideIndex = 1;
+showSlides(slideIndex);
 
-Array.prototype.forEach.call(dotElems, (dotElem) => {
-		
-	dotElem.addEventListener('click', (e) => {
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
 
-		let currentPos = parseInt(sliderElem.getAttribute('data-pos'))
-		let newPos     = parseInt(dotElem.getAttribute('data-pos'))
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
 
-		let newDirection     = (newPos > currentPos ? 'right' : 'left')
-		let currentDirection = (newPos < currentPos ? 'right' : 'left')
-
-		indicatorElem.classList.remove(`slider__indicator--${ currentDirection }`)
-		indicatorElem.classList.add(`slider__indicator--${ newDirection }`)		
-		sliderElem.setAttribute('data-pos', newPos)
-		
-	})
-	
-})
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
