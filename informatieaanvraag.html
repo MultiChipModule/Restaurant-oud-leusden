@@ -23,7 +23,7 @@
                      <ul>
                         <li><a href="index.html">Home</a></li>
                         <li><a href=".html">Restaurant</a></li>
-                        <li><a href="????">Condoleances</a></li>
+                        <li><a href="recensies.html">Recensies</a></li>
                         <li><a href="vacatures.html">Vacatures</a></li>
                         <li><a href="????">Nieuwsbrief</a></li>
                         <li><a href="????">Foodboek</a></li>
@@ -39,17 +39,25 @@
         </div>
         <div id="formm">
             <form action="">
-                    <div id="formleftm">
-                        <div>
-                            <a>Naam:</a>
-                            <input id="naam" name="naam" type="text" required="required" value="">
-                        </div>  
-                        <div>
-                            <a>Telefoonnummer:</a>
-                            <input id="telefoonnummer" name="telefoonnummer" type="text" required="required" value="">
-                        </div>  
-                        <div>
-                            <select name="bijeenkomsttype" id="bijeenkomsttype" required="required">
+                    <table>
+                            <tbody>                  
+                            <tr>
+                            <td>Naam:</td>
+                            <td><input id="naam" name="naam" type="text" required="required" value=""></td>
+                            <td>Bedrijfsnaam:</td>
+                            <td><input id="bedrijfsnaam" name="bedrijfsnaam" type="text" required="required" value=""></td>
+
+                            </tr>
+                            <tr>
+                            <td>Telefoonnummer:</td>
+                            <td><input id="telefoonnummer" name="telefoonnummer" type="text" required="required" value=""></td>
+                            <td>Emailadres:</td>
+                            <td><input id="emailadres" name="emailadres" type="text" required="required" value=""></td>
+
+                            </tr>
+                            <tr>
+                            <td>Type bijeenkomst:</td>
+                            <td><select name="bijeenkomsttype" id="bijeenkomsttype" required="required">
                                     <option value="">Kies…</option>
                                     <option>Diner</option>
                                     <option>Vergadering</option>
@@ -59,46 +67,36 @@
                                     <option>Feest</option>
                                     <option>Receptie</option>
                                     <option>Bruiloft</option>
-                            </select>
-                        </div>
-                        <div>
-                            <a>Indicatie aantal personen:</a>
-                            <input id="aantal" name="aantal" type="text" required="required" value="">
-                        </div>  
-                        <div>
-                            <a>Begintijd:</a>
-                            <input id="begintijd" name="begintijd" type="text" required="required" value="">
-                        </div>  
-                        <div>
-                            <a>Eindtijd:</a>
-                            <input id="eindtijd" name="eindtijd" type="text" required="required" value="">
-                        </div>  
-                    </div>  
-                    <div id="formrightm">
-                        <div>
-                                <a>Bedrijfsnaam</a>
-                                <input id="bedrijfsnaam" name="bedrijfsnaam" type="text" required="required" value="">
-                            </div>
-                            <div>
-                                <a>Emailadres:</a>
-                                <input id="emailadres" name="emailadres" type="text" required="required" value="">
-                            </div>
-                            <div>
-                                <a>Datum:</a>
-                                <input id="datum" name="datum" type="text" required="required" value="">
-                            </div>  
-                            <div>
-                                <a>Extra keuzes</a>
-                                 <br>
-                                <input type="checkbox" name="extrakeuzes" value="Lunch"> Lunch
-                                 <br>
-                                <input type="checkbox" name="extrakeuzes" value="Audio"> Audio
-                                 <br>
-                                <input type="checkbox" name="extrakeuzes" value="Koffiepauze"> Koffiepauze
-                                 <br>
-                                <input type="checkbox" name="extrakeuzes" value="Koekassortiment"> Koekassortiment
-                            </div>
-                    </div>  
+                            </select></td>
+                            <td>Datum:</td>
+                            <td><input id="datum" name="datum" type="text" required="required" value=""></td>
+
+                            </tr>
+                            <tr>
+                            <td>Indicatie aantal personen:</td>
+                            <td><input id="aantal" name="aantal" type="text" required="required" value=""></td>
+                            <td>Extra keuzes:</td>
+                            <td>
+                                   <input type="checkbox" name="extrakeuzes" value="Lunch"> Lunch
+                                    <br>
+                                   <input type="checkbox" name="extrakeuzes" value="Audio"> Audio
+                                    <br>
+                                   <input type="checkbox" name="extrakeuzes" value="Koffiepauze"> Koffiepauze
+                                    <br>
+                                   <input type="checkbox" name="extrakeuzes" value="Koekassortiment"> Koekassortiment</td>
+
+                            </tr>
+                            <tr>
+                            <td>Begintijd:</td>
+                            <td><input id="begintijd" name="begintijd" type="text" required="required" value=""></td>
+                            </tr>
+                            <tr>
+                            <td>Eindtijd:</td>
+                            <td><input id="eindtijd" name="eindtijd" type="text" required="required" value=""></td>
+
+                            </tr>
+                            </tbody>
+                            </table>
                     <button type="submit" id="buttonsubmitm">Verstuur</button>    
             </form>
         </div>
