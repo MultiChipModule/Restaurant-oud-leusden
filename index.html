@@ -4,9 +4,12 @@
 	<meta charset="UTF-8">
     <title>WELKOM - Restaurant Oud Leusden</title>
     <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 
 <body>
+    <script src="slider.js"></script> 
     <div id="HeadDiv">
         <div id="Header">
             <div id="GreenThing">
@@ -20,17 +23,17 @@
         </div>
         <div>
             <nav>
-                 <ul>
-                    <li><a class="active" href="index.html">Home</a></li>
-                    <li><a href=".html">Restaurant</a></li>
-                    <li><a href="????">Condoleances</a></li>
-                    <li><a href="vacatures.html">Vacatures</a></li>
-                    <li><a href="????">Nieuwsbrief</a></li>
-                    <li><a href="????">Foodboek</a></li>
-                    <li><a href="contact.html">Contact & Route</a></li>
-                    <li><a href="informatieaanvraag.html">Informatie Aanvraag</a></li>
-                </ul>
-            </nav>
+                <ul>
+                   <li><a class="active"  href="index.html">Home</a></li>
+                   <li><a href="">Restaurant</a></li>
+                   <li><a href="recensies.html">Recensies</a></li>
+                   <li><a href="vacatures.html">Vacatures</a></li>
+                   <li><a href="????">Nieuwsbrief</a></li>
+                   <li><a href="????">Foodboek</a></li>
+                   <li><a href="contact.html">Contact & Route</a></li>
+                   <li><a href="????">Informatie Aanvraag</a></li>
+               </ul>
+           </nav>
 
         </div> 
         <div id="TextFieldHome">
@@ -52,29 +55,34 @@
                     Ook grotere gezelschappen zijn van harte welkom in een van onze zalen.
             </p>
         </div>
-        <div id="Slider">
-            PLAATJES DIE BEWEGEN
+        
+        <div class="slideshow">
+            <img id="PicturesSlide" src="pictures/foto1.jpg">
+        
         </div>
-        <div id="TreeTextThings">
-            <div id="Number1">
-                <img id="Winter" src="pictures/Kerst.jpg" alt="Winter">
-                <p>
-                        Onbeperkt kerstgourmet<br>
-                        1e en 2e kerstdag vanaf 17.00 uur
-                </p>
+        
+        
+        <div id="TwoTextThings">
             
-            </div>
 
-            <div id="Number2">
+            <div id="Number1">
+                <h3>Wild van wild</h3>
                 <img id="Fall" src="pictures/Herfst.jpg" alt="Fall">
-                <p>
+                <p id="Tekstjes">
                         Ontdek onze welke smaakvolle gerechten de keukenbrigade op de wildkaart heeft gezet!
                 </p>
             </div>
 
-            <div id="Number3">
-                <p>
+            <div id="Number2">
+                <h3>Nieuwsbrief</h3>
+                <p id="Tekstjes">
                         Nieuws en aanbiedingen in je mail ontvangen? 
+                </p>
+                <p>
+                    <input id="Mail" type="text" name="email" placeholder="Vul uw emailadres in">
+                </p>
+                <p id="SubmitGreenPara">
+                    <input id="SubmitGreen" type="submit" value="schrijf me in" id="submit">
                 </p>
 
             </div>
