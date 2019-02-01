@@ -484,7 +484,11 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
-/* MOBIEL *//* MOBIEL *//* MOBIEL *//* MOBIEL *//* MOBIEL *//* MOBIEL */
+.PicturesFood{
+	margin-left: 5%;
+}
+
+/* MOBIEL *//* MOBIEL *//* MOBIEL *//* MOBIEL *//* MOBIE	L *//* MOBIEL */
 /* MOBIEL *//* MOBIEL *//* MOBIEL *//* MOBIEL *//* MOBIEL *//* MOBIEL */
 /* MOBIEL *//* MOBIEL *//* MOBIEL *//* MOBIEL *//* MOBIEL *//* MOBIEL */
 @media screen and (max-width: 420px){
@@ -598,9 +602,7 @@ img {vertical-align: middle;}
     
     
 } 
-.PicturesFood{
-    margin-left: 5%;
-}
+
 /* */
 @media screen and 
 (max-width: 1000px)
@@ -636,6 +638,3 @@ and
     #Pictures{
         display: none;
     }
-
-
-}
