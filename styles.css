@@ -4,7 +4,7 @@
     width: 62%;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid rebeccapurple;
+    border: 1px solid black;
     box-shadow: rgb(211, 207, 207) 3px 3px 3px;
     font-family: "Calibri", verdana, candara, Andale Mono , Helvetica, sans-serif;
 }
@@ -17,10 +17,12 @@
     background: #558971;
     margin-top: 2%;
     margin-left: 2%;
+    margin-bottom: 10px;
     width: 45%;
     color: white;
     padding: 15px;
     text-align: center;
+    
     
 }
 
@@ -39,6 +41,7 @@
 
 #TextFieldHome{
     border-style: none dotted none none;
+    border-color: lightgray;
     width: 55%;
     margin-left: 5px;
     
@@ -96,7 +99,7 @@ nav{
 
 ul {
     list-style-type: none;
-    margin: 0;
+    margin-top: 10px;
     padding: 0;
     overflow: hidden;
     background-color: #F6F6F6;
@@ -218,7 +221,44 @@ ul {
     margin-right: 20px;
     margin-top: -425px;
 }
-/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+#Footer{
+    text-align: center;
+}
+
+.recensies{
+    margin-left: 10px
+}
+.rate {
+    float: left;
+    height: 46px;
+    
+    
+    
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+
+.TekstV{
+    margin-left: 10px;
+    margin-right: 10px;
+}
 @import url(https://fonts.googleapis.com/css?family=Varela+Round);
 .slides {
     padding: 0;
@@ -329,7 +369,6 @@ input#img-5:checked ~ .nav-dots label#img-dot-5,
 input#img-6:checked ~ .nav-dots label#img-dot-6 {
 	background: rgba(0, 0, 0, 0.8);
 }
-/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 table{
     align-content: left;
 }
@@ -445,3 +484,154 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+
+/* MOBIEL *//* MOBIEL *//* MOBIEL *//* MOBIEL *//* MOBIEL *//* MOBIEL */
+/* MOBIEL *//* MOBIEL *//* MOBIEL *//* MOBIEL *//* MOBIEL *//* MOBIEL */
+/* MOBIEL *//* MOBIEL *//* MOBIEL *//* MOBIEL *//* MOBIEL *//* MOBIEL */
+@media screen and (max-width: 420px){
+    #HeadDiv{
+        box-shadow: 1px 1px gray;
+        height: 90%;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        border: none;
+        box-shadow: none;
+        font-family: "Calibri", verdana, candara, Andale Mono , Helvetica, sans-serif;
+        
+    }
+
+    #GreenThing{
+        background: #558971;
+        
+        margin-left: -10px;
+       
+        margin-bottom: 10px;
+        width: 100%;
+        color: white;
+        padding: 15px;
+        text-align: center;
+        margin-top: 200px
+        
+        
+    }
+   
+    
+    li{ 
+        background: #F4FEFF;
+        display: inline;
+       
+    }
+    nav{
+        color: #448761;
+        width: 100%;
+        margin-top: 50%;
+    }
+    #Pictures{
+        margin-left: 25%;
+        
+        margin-top: -100%;
+    }
+    
+    
+    #Wifi{
+        display: none;
+    }
+    
+    #Logo{
+        margin-left: -10px;
+        
+        margin-bottom: 250px;
+        height: 140px;
+    }
+    #TextFieldHome{
+        border-style: none;
+        width: 90%;
+        margin-left: 5px;
+        
+    }
+    #PicturesSlide{
+        float: right;
+        width: 90%;
+        margin-right: 20px;
+        margin-top: 0px;
+    }
+    #slideshow{
+        width: 40%;
+    }
+    #TwoTextThings{
+        display: inline-block;
+        margin-left: 3px;
+        margin-top: 50px;
+        
+    }
+    
+    #Number1{
+        background-color: #F6F6F6;
+        width: 90%;
+        float:left;
+        margin-left: 25px;
+        margin-right: auto;
+    }
+    
+    
+    #Number2{
+        background-color: #F6F6F6;
+        width: 90%;
+        float: left;
+        margin-left: 25px;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+    
+    nav{
+        margin-top: 16%;
+        
+    }
+    
+    
+    p{
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+    
+    
+} 
+
+/* */
+@media screen and 
+(max-width: 1000px)
+and
+(min-width: 700px){
+    #HeadDiv{
+        box-shadow: 1px 1px gray;
+        height: 90%;
+        width: 95%;
+        margin-left: -8px;
+        margin-right: -8px;
+        border: none;
+        box-shadow: none;
+        font-family: "Calibri", verdana, candara, Andale Mono , Helvetica, sans-serif;
+    }
+    #Slider{
+        margin-left: 70%;
+        margin-top: -30%;
+        
+    }
+    #GreenThing{
+        background: #558971;
+        margin-top: 2%;
+        margin-left: 0%;
+        margin-bottom: 10px;
+        width: 100%;
+        color: white;
+        padding: 15px;
+        text-align: center;
+        
+        
+    }
+    #Pictures{
+        display: none;
+    }
